@@ -2,6 +2,7 @@ if(!String.prototype.replace){String.prototype.replace=function(o,n){return this
 
 d=document
 rom='file://rom/'
+rmb=rom+'Borders/'
 htm=rom+'HTMLs/'
 cch=rom+'Cache/'
 
@@ -32,7 +33,7 @@ function gTC(type,itm){
 		case 1://dark
 			bgclr='191919'
 			tclr='42bd52'
-			bbif=rom+'ButtonBorder2'
+			bbif=rmb+'ButtonBorder2'
 		break
 		case 2://red
 			bgclr='6e0005'
